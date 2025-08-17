@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HOMEPAGE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    html {
+      font-size: 62.5%;
+      overflow: hidden;
+      height: 100%;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    body {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url('../images/ward.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    header {
+      flex-shrink: 0;
+      border-top: 6px solid white;
+      border-bottom: 6px solid white;
+      position: fixed;
+      top: 20px;
+      height: 10rem;
+      width: 100%;
+      padding: 2rem 9%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100; 
+    }
+    footer {
+    flex-shrink: 0;
+      border-top: 6px solid white;
+      border-bottom: 6px solid white;
+      position: fixed;
+      bottom: 10px;
+      left: 0;
+      padding: 2rem 9%;
+      margin-top: 0;
+      width: 100%;
+      background-color: transparent;
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+      nav a {
+      font-size: 2rem;
+      color: white;
+      margin-left: 4rem;
+      font-weight: relative;
+      transition: 0.3s ease;
+      border-bottom: 1px solid transparent;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 4rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+
+    nav a:hover,
+    nav a.home {
+      color: darkred;
+      border-bottom: 3px solid #b74b4b;
+    }
+
+    section.home {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .logo {
+      font-size: 3rem;
+      color: #b74b4b;
+      font-weight: 800;
+      cursor: pointer;
+      transition: 0.5s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.1);
+    }
+    .typing-text {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .home-content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 4rem;
+      padding: 2rem 5%;
+      width: 100%;
+      text-align: left;
+    }
+    .profile-pic {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: solid white;
+      margin-left: 10rem;
+      cursor: pointer;
+      transition: 0.5s ease;
+    }
+    .text-content {
+      max-width: 600px;
+    }
+    .info-box {
+      background-color: #444444;
+      padding: 2rem;
+      border: 2px solid white;
+      border-radius: 1rem;
+      max-width: 600px;
+      color: white;
+      font-size: 1.6rem;
+      line-height: 1.6;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      margin-left: 13rem;
+      margin-top: 5rem;
+      outline: 0px;
+    }
+    .profile-pic:hover {
+    transform: scale(1.1);
+    }
+    .info-box ul {
+      padding-left: 2rem;
+      margin-top: 1rem;
+      outline: none;
+    }
+    .info-box li {
+      margin-bottom: 0.5rem;
+      outline: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+
+  <header>
+    <a href="#" class="logo">Portfolio</a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="introduction.html" class="Introduction">Introduction</a></li>
+        <li><a href="Profile.html" class="Profile">Profile</a></li>
+        <li><a href="contact.html" class="Contact">Contact</a></li>
+        <li><a href="Skills.html" class="Skills">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <div class="image-container">
+          <img src="../images/home.jpg" alt="Howard" class="profile-pic">
+    </div>
+    <div class="info-box">
+      <p>Welcome! I'm passionate about technology and skilled in computer systems servicing. Here, you'll find my Contact, skills, my Goal and experiences that showcase my journey in the IT field. Feel free to explore and connect with me!</p>
+<p>You can explore the following sections:</p>
+  <ul>
+    <li>Introduction – Get to know me in a few words.</li>
+    <li>Profile – Learn more about my academic background and goals.</li>
+    <li>Contact – Find out how to reach me.</li>
+    <li>Skill – Check out what devices and languages I’m familiar with.</li>
+  </ul>
+    <br>
+    <p>Feel free to browse and learn more about my journey!</p>
+    </div>
+  </div>
+  </section>
+
+    <footer>
+    
+  </footer>
+</div>
+</body>
+</html>

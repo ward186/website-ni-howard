@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<title>CONTACT</title>
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+		border: none;
+		outline: none;
+		font-family: 'Poppins', sans-serif;
+	}
+	html {
+		font-size: 62.5%;
+		overflow: hidden;
+		height: 100%;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+	}
+	body {
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		background-image: url('../images/ward.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		color: white;
+	}
+	header {
+      flex-shrink: 0;
+      border-top: 6px solid white;
+      border-bottom: 6px solid white;
+      position: fixed;
+      top: 20px;
+      height: 10rem;
+      width: 100%;
+      padding: 2rem 9%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100; 
+    }
+	footer {
+	  flex-shrink: 0;
+      border-top: 6px solid white;
+      border-bottom: 6px solid white;
+      position: fixed;
+      bottom: 10px;
+      left: 0;
+      padding: 2rem 9%;
+      margin-top: 0;
+      width: 100%;
+      background-color: transparent;
+      color: white;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+		}
+
+	.logo {
+		font-size: 3rem;
+		color: #b74b4b;
+		font-weight: 800;
+		cursor: pointer;
+		transition: 0.5s ease;
+	}
+	.logo:hover {
+		transform: scale(1.1);
+	}
+	nav a {
+			text-decoration: none;
+      font-size: 2rem;
+      color: white;
+      margin-left: 4rem;
+      font-weight: relative;
+      transition: 0.3s ease;
+      border-bottom: 1px solid transparent;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 4rem;
+      margin: 0;
+      padding: 0;
+    }
+    
+
+    nav a:hover,
+    nav a.Contact {
+      color: darkred;
+      border-bottom: 3px solid #b74b4b;
+    }
+    }
+	
+	section.Contact {
+		flex: 1;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		text-align: left;
+		padding: 0px;
+	}
+	.Contact-content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 4rem;
+		padding: 2rem 5%;
+		width: 100%;
+		text-align: right;
+
+	}
+	.text-boxes {
+		flex: 1;
+	}
+	.Contact1 {
+		width: 350px;
+		height: 350px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: solid white;
+		margin-right: 8rem;
+		margin-top: 15rem;
+		cursor: pointer;
+		transition: 0.5s ease;
+	}
+	.Contact1:hover {
+		transform: scale(1.1);
+	}
+	.text-content {
+		max-width: 600px;
+	}
+	.info-box {
+		background-color: #444444;
+		padding: 2rem;
+		border: 2px solid white;
+		border-radius: 2rem;
+		max-width: 90%;
+		color: white;
+		line-height: -2;
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+		margin-top: 11.5rem;
+		margin-bottom: 3rem;
+		height: 6rem;
+		font-size:20px;
+		text-align: left;
+		margin-left: -0.1rem;
+		margin-right: auto;
+		position: absolute;
+	}
+	.info-box1 {
+		background-color: #444444;
+		padding: 2rem;
+		border: 2px solid white;
+		border-radius: 2rem;
+		max-width: 800px;
+		color: white;
+		line-height: 1.5;
+		box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+		margin-left: 0rem;
+		margin-top: 19rem;
+		margin-bottom: 0;
+		margin-right: 9rem;
+		height: 41.5rem;
+		font-size: 20px;
+		text-align: left;
+		padding-left: 3rem;
+		}
+
+		.fa-facebook {
+			color: #5865F2;
+		}
+		.fa-messenger {
+			color: #5865F2;
+		}
+		.fa-discord {
+  		color: #5865F2;
+  		}
+  		.info-box1 ul li a {
+  			color: white;
+  			text-decoration: underline;
+  			font-size: 20px;
+  		}
+
+  		.info-box1 ul li a:visited {
+  			color: white;
+  		}
+
+  		.info-box1 ul li a:hover {
+  			color: darkred;
+  		}
+
+  		.info-box1 ul li span {
+  			color: white;
+  			text-decoration: none;
+  			font-size: 20px;
+  		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="#" class="logo">Portfolio</a>
+		<nav>
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="introduction.html" class="Introduction">Introduction</a></li>
+        <li><a href="Profile.html" class="Profile">Profile</a></li>
+        <li><a href="contact.html" class="Contact">Contact</a></li>
+        <li><a href="Skills.html" class="Skills">Skills</a></li>
+      </ul>	
+		</header>
+				<section class="Contact" id="Contact">
+			<div class="Contact-content">
+				<div class="text-boxes">
+					<div class="info-box">
+						<p>Feel free to reach out to me for questions, collaborations, or opportunities. Here are my contact details:</p>
+					</div>
+					<div class="info-box1">
+						<p><i class="fas fa-phone"></i> Contact Number<br>09567535676</p>
+						<p><i class="fas fa-home"></i> Address<br>P-4 Daguit, Labo, Camarines Norte, Philippines</p>
+						<p><i class="fas fa-envelope"></i> Email<br>howard.almayda06@email.com</p>
+						<p><i class="fas fa-user-group"></i> Socials</p>
+							<ul>
+  <li>
+    <a href="https://web.facebook.com/howard.almayda" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <span> Facebook: </span>
+    <a href="https://web.facebook.com/howard.almayda" target="_blank">
+      https://web.facebook.com/howard.almayda
+    </a>
+  </li>
+
+  <li>
+    <a href="https://m.me/howard.almayda" target="_blank">
+      <i class="fab fa-facebook-messenger"></i>
+    </a>
+    <span> Messenger: </span>
+    <a href="https://m.me/howard.almayda" target="_blank">
+      https://m.me/howard.almayda
+    </a>
+  </li>
+
+  <li>
+    <a href="https://discord.com/channels/@me" target="_blank">
+      <i class="fab fa-discord"></i>
+    </a>
+    <span> Discord: </span>
+    <a href="https://discord.com/channels/@me" target="_blank">
+      https://discord.com/channels/@me
+    </a>
+  </li>
+
+  <li>
+    <a href="https://github.com/ward186" target="_blank">
+      <i class="fab fa-github" style="color:#171515;"></i>
+    </a>
+    <span> GitHub: </span>
+    <a href="https://github.com/ward186" target="_blank">
+      https://github.com/ward186
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.instagram.com/waaaarddddddd?igsh=dWprbnhtcjE4Z3lk" target="_blank">
+      <i class="fab fa-instagram" style="color:#E4405F;"></i>
+    </a>
+    <span> Instagram: </span>
+    <a href="https://www.instagram.com/waaaarddddddd?igsh=dWprbnhtcjE4Z3lk" target="_blank">
+      https://www.instagram.com/waaaarddddddd?igsh=dWprbnhtcjE4Z3lk
+    </a>
+  </li>
+</ul>
+
+					</div>
+				</div>
+				<img src="../images/fam guy.jpg" alt="Howard" class="Contact1">
+			</div>
+		</section>
+		<footer></footer>
+	</div>
+
+</body>
+</html>
